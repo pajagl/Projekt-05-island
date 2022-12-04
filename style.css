@@ -262,8 +262,9 @@ img {
         background-color: rgb(247, 247, 247);
     }
 
-    p {
-        padding-right: 8%;
+    .uvod {
+        padding-top: 3%;
+        padding-right: 1%;
     }
     .menu {
         display: flex;
@@ -274,7 +275,7 @@ img {
     .menu a {
         border-top: none;
         justify-content: left;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .main {
