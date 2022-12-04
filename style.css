@@ -161,20 +161,22 @@ img {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 4%;
+        margin-top: 3%;
         padding: 0% 6% 0% 6%;
     }
 
+    .uvod, .proc, .mustsee {
+        padding-bottom: 2%;
+    }
     .menu a {
         border-top: 1px solid lightgray;
         padding: 10px;
         text-align: center;
-        
+        font-size: 12px;  
     }
 
     .menu li {
-        flex-grow: 1;
-        
+        flex-grow: 1;  
     }
 
     .obrazek-popisek {
@@ -272,7 +274,7 @@ img {
     .menu a {
         border-top: none;
         justify-content: left;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .uvod {
@@ -282,11 +284,11 @@ img {
     }
 
     .uvod p {
-        font-size: 16px;
+        font-size: 15px;
     }
     .main {
         background-color: rgb(255, 255, 255);
-        margin-left: 8%;
+        margin-left: 15%;
         margin-right: 8%;
         box-shadow:  0 10px 20px rgba(0, 0, 0, 0.3);
         display: block;
@@ -323,6 +325,10 @@ img {
         overflow: hidden;
     }
 
+    .foto:hover img {
+        transform: scale(1.2);
+    }
+
     .popisek {
         font-size: 12px;
     }
@@ -336,12 +342,12 @@ img {
         padding-left: 20%;
         padding-bottom: 3%;
     }
+
     .paticka {
-        width: 960px;
+        box-shadow: none;
         display: block;
         margin: auto;
-        padding: 0;
-        padding-top: 3%;
-        box-shadow: none;
+        width: 960px;
     }    
+
 }
